@@ -15,3 +15,17 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+@media (max-width: 639px) {
+  .flex.gap-6.justify-center {
+    flex-direction: column;
+  }
+  .text-4xl {
+    font-size: 1.5rem;
+  }
+  .banner{
+    height: 140px;
+    width: 100%;
+  }
+  .banner p {font-size: 15px; width: 150px; text-align: center; }
+}

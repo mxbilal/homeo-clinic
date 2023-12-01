@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import HeaderPage from "@/components/HeaderPage";
-import MobileHeader from "@/components/MobileHeader";
 import SubHeader from "@/components/SubHeader";
 import Banner from "@/components/Banner";
 
