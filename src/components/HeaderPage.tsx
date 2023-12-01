@@ -3,7 +3,7 @@ import React from "react";
 
 const HeaderPage = () => {
   return (
-    <div className="md:px-20 px-10 flex justify-between py-2 items-center">
+    <div className="sticky top-0 bg-white md:px-20 px-10 flex justify-between py-2 items-center">
       <div className="flex gap-1">
         <p className="text-lg font-semibold cursor-pointer">Homeo Clinic +</p>{" "}
         {/* <img src="/icons/capsules.png" alt="health" width={20} height={10} /> */}
