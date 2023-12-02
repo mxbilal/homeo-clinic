@@ -73,7 +73,7 @@ const SubHeader = () => {
         </div>
         {showDrawer && (
           <div className="drawer fixed top-0 left-0 h-screen w-full bg-white z-50">
-            <div className="drawer-content flex flex-col h-full">
+            <div className="drawer-content flex flex-col h-full p-10">
               <button
                 className="close-drawer"
                 onClick={() => setShowDrawer(false)}
