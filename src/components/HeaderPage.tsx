@@ -16,7 +16,7 @@ const HeaderPage = () => {
   if (ismobile || loader) return <></>;
   if (!ismobile)
     return (
-      <div className="sticky top-0 bg-white md:px-20 px-10 flex justify-between py-2 items-center">
+      <div className="sticky top-0 bg-white md:px-20 px-10 flex justify-between py-2 items-center border-b-2 border-lime-700">
         <div className="flex gap-1">
           <p className="text-lg font-semibold cursor-pointer">Homeo Clinic +</p>{" "}
           {/* <img src="/icons/capsules.png" alt="health" width={20} height={10} /> */}
