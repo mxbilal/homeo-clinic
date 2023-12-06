@@ -15,7 +15,7 @@ export default function Home() {
       <p className="text-4xl font-semibold text-center text-emerald-400  p-4">
         Our Products
       </p>
-      <div className="flex gap-6 justify-center sm:flex-col md:flex-row">
+      <div className="flex gap-6 justify-center sm:flex-col md:flex-row pb-12">
         <img
           src="/p1.jpg"
           alt=""
