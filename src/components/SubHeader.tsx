@@ -20,7 +20,7 @@ const SubHeader = () => {
 
   const MenuBar = () => {
     return (
-      <div className="md:bg-emerald-600 sticky top-11 md:py-8 bg-white py-4 flex justify-center gap-6">
+      <div className="md:bg-emerald-600 md:py-8 bg-white py-4 flex justify-center gap-6">
         <Link
           href=""
           className="text-emerald-600 md:text-white hover:font-bold"

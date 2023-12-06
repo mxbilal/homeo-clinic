@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import HeaderPage from "@/components/HeaderPage";
 import SubHeader from "@/components/SubHeader";
 import Banner from "@/components/Banner";
+import FooterPage from "@/components/FooterPage";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <SubHeader />
         <Banner />
         {children}
+        <FooterPage />
       </body>
     </html>
   );
